@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">My Ride</string>
+
+    <!-- Login & Register Activity -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="birth_date">Birthday (30/6/1966)</string>
+
+    <string name="login_error_empty">Please enter both email and password!</string>
+    <string name="error_birthday">Wrong date format! Must be "dd/MM/yyyy"</string>
+    <string name="error_password">Password must be at least 6 characters</string>
+    <string name="register_error_empty">Please enter all required information</string>
+    <string name="login_dialog">Logging in &#8230;</string>
+    <string name="register_dialog">Creating account &#8230;</string>
+
+    <!-- Main Menu Activity -->
+    <string name="findRide">Find a Ride</string>
+    <string name="offerRide">Offer a Ride</string>
+    <string name="myRides">My Rides</string>
+    <string name="options">Options</string>
+    <string name="rank">Stars:</string>
+
+    <!-- Find & Offer Ride Activity -->
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="plus_minus">+/-</string>
+    <string name="cost_max">Cost (max)</string>
+    <string name="cost">Cost</string>
+    <string name="seats">Seats</string>
+    <string name="seats_min">Seats (min)</string>
+    <string name="number_of_seats">Number of seats:</string>
+    <string name="pets">Pets</string>
+    <string name="smoking">Smoking</string>
+
+    <string name="offer">Offer</string>
+    <string name="find">Find</string>
+
+    <string name="error_enter">You must enter from, to, date and time!</string>
+    <string name="error_date">You can not pick past dates!</string>
+    <string name="error_time">You can not pick past time!</string>
+    <string name="offer_dialog">Sharing ride &#8230;</string>
+    <string name="offer_successful">Ride successfully shared!</string>
+    <string name="nothing_found">No rides found! Please try again later or change some search options.
+        <![CDATA[<b><font color=#0000FF>Click here to be notified when such a ride is available!</font></b>]]>
+    </string>
+
+    <string-array name="time_spinner">
+        <item>1h</item>
+        <item>2h</item>
+        <item>3h</item>
+    </string-array>
+
+    <!-- My Rides Activity -->
+    <string name="applied_rides">Applied for</string>
+    <string name="offered_rides">Offered</string>
+
+    <!-- Options Activity -->
+    <string name="upload_text">Upload profile picture:</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="signOut">Sign Out</string>
+
+    <string name="signout_dialog">Signing out &#8230;</string>
+    <string name="upload_dialog">Uploading picture &#8230;</string>
+    
+    <!-- Ride Info Dialogs -->
+    <string name="ride_info">Ride info:</string>
+    <string name="driver_info">Driver info:</string>
+    <string name="members">Passengers:</string>
+    <string name="join">Join ride</string>
+    <string name="cancel">Cancel ride</string>
+    <string name="close">Close</string>
+
+    <string name="message_requested">You asked the driver to join his ride. Waiting for response!</string>
+    <string name="message_accepted">You have been accepted to join this ride!</string>
+    <string name="message_declined">Sorry, the driver declined your request to join this ride!</string>
+    <string name="message_full">Sorry, but this ride is already full!</string>
+
+    <!-- Notifications -->
+    <string name="notification_requested">Someone requested to join your ride!</string>
+    <string name="notification_accepted">You have been accepted to join the ride!</string>
+    <string name="notification_declined">Sorry, the driver declined your request to join this ride!</string>
+    <string name="notification_ride_found">We have found you the ride you were looking for!</string>
+
+    <!-- Autocomplete -->
+    <string-array name="cites_array">
+        <item>Niš</item>
+        <item>Belgrade</item>
+        <item>Novi Sad</item>
+        <item>Subotica</item>
+        <item>Kragujevac</item>
+        <item>Kraljevo</item>
+        <item>Leskovac</item>
+        <item>Kruševac</item>
+        <item>Jagodina</item>
+    </string-array>
+</resources>
